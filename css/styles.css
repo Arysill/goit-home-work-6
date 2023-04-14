@@ -648,8 +648,9 @@ body {
 .custor {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 40px;
   text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   padding-top: 120px;
   padding-bottom: 72px;
@@ -768,6 +769,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   line-height: 1.5;
+  margin-bottom: 16px;
 }
 
 .web-soc-list {
@@ -867,15 +869,32 @@ body {
   color: #2e2f42;
 }
 .modal-rorm {
+  background-color: #fcfcfc;
 }
 .modal-input {
-  border: 1px solid #4d5ae5;
+  border: 1px solid #2e2f4266;
   border-radius: 4px;
   box-sizing: border-box;
   width: 360px;
   height: 40px;
-  margin-bottom: 26px;
+  outline: transparent;
   padding-left: 38px;
+  background-color: transparent;
+}
+
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input-item {
+  position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-input:focus + .modal-input-item {
+  fill: #4d5ae5;
 }
 
 .modal-label {
@@ -890,7 +909,50 @@ body {
   height: 14px;
   color: #8e8f99;
 }
+
 .send-button {
+  font-family: "Roboto", sans-serif;
   width: 169px;
-  height: 56px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--title-btn-color);
+  cursor: pointer;
+  transition: transform var(--tra), border-radius var(--tra);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px 32px;
+  gap: 10px;
+  margin: 0% auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  left: 635px;
+  top: 584px;
+}
+
+.modal-wrap {
+}
+
+.input-wrap {
+  position: relative;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.modal-textarea {
+  width: 360px;
+  height: 120px;
+  border-color: 1px solid rgba(46, 47, 66, 0.144);
+  border-radius: 4px;
+  color: rgba(46, 47, 66, 0.4);
+  resize: none;
+  outline: transparent;
+  padding: 10px;
+  background-color: transparent;
+}
+.modal-textarea:focus {
+  border-color: #4d5ae5;
 }
