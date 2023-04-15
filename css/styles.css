@@ -868,10 +868,22 @@ body {
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  color: #2e2f42;
   width: 24px;
   height: 24px;
-  margin-bottom: 20px;
 }
+.modal-close:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+.icon-close {
+  fill: #2e2f42;
+}
+
+.modal-close:is(:hover, :focus) .icon-close {
+  fill: #ffffff;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -1032,7 +1044,10 @@ body {
   position: absolute;
   width: 165px;
   height: 40px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-left: 24px;
   padding: 8px 24px;
 
@@ -1042,6 +1057,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding-right: 16px;
 
   background-color: #4d5ae5;
   color: #ffffff;
@@ -1058,12 +1074,13 @@ body {
   display: flex;
   top: 50%;
   left: 16px;
-  margin-right: 16px;
+  margin-left: 16px;
   transform: translate(-50%);
   fill: #ffffff;
 }
 .online-area {
   font-family: "Roboto";
+
   width: 264px;
   height: 40px;
   padding: 16px;
