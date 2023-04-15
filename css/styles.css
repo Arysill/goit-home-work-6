@@ -137,19 +137,13 @@ address {
   letter-spacing: 0.02em;
   color: var(--title-main-color);
   font-style: normal;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /*  transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-text:is(:hover, :focus) {
   color: #404bbf;
 }
 .header-link {
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:is(:hover, :focus) {
@@ -188,10 +182,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress:is(:hover, :focus) {
   color: #404bbf;
@@ -246,11 +237,10 @@ address {
   flex-grow: 0;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button {
 }
 .btn-portfol-link:is(:hover, :focus) {
@@ -413,11 +403,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-main-color);
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .headerw-text:is(:hover, :focus) {
   color: #404bbf;
 }
@@ -444,10 +432,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress {
@@ -500,7 +485,6 @@ body {
   color: #ffffff;
   background: var(--title-btn-color);
   cursor: pointer;
-  /* transition: transform var(--tra), border-radius var(--tra); */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -510,9 +494,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hero-web:is(:hover, :focus) {
@@ -710,7 +693,8 @@ body {
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custo-icon {
@@ -745,8 +729,10 @@ body {
   justify-content: center;
   background: #4d5ae5;
   border-radius: 50%;
-  /* transition: transform var(--tra), border-radius var(--tra); */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .our-soc-link:is(:hover, :focus) {
   background: #404bbf;
 }
@@ -804,6 +790,7 @@ body {
   color: #f4f4fd;
   line-height: 1.5;
   margin-bottom: 16px;
+  width: 264px;
 }
 
 .web-soc-list {
@@ -836,7 +823,8 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: transform var(--tra), border-radius var(--tra);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web-soc-link:focus {
@@ -953,7 +941,6 @@ body {
   color: #ffffff;
   background: var(--title-btn-color);
   cursor: pointer;
-  /* transition: transform var(--tra), border-radius var(--tra); */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -966,9 +953,8 @@ body {
   border: none;
   left: 635px;
   top: 584px;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-wrap {
@@ -1038,44 +1024,58 @@ body {
   margin-bottom: 16px;
 }
 .online-area {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 264px;
-  display: flex;
-  position: absolute;
-  height: 40px;
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  width: 400px;
-  background: #2e2f42;
-  border: 1px solid #ffffff5e;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  padding: 16px;
 }
 .cont-subs {
   margin-left: 80px;
 }
 .online-button {
+  position: absolute;
   width: 165px;
   height: 40px;
+
   margin-left: 24px;
   padding: 8px 24px;
+
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #404bbf;
+
+  background-color: #4d5ae5;
   color: #ffffff;
-  fill: #ffffff;
   border-radius: 4px;
   border: none;
-  transition-timing-function: linear, cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-  transition-property: transform, border-radius;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.online-button:is(:hover, :focus) {
+  background-color: ##404bbf;
+}
+
+.fotter-icon {
+  display: flex;
+  top: 50%;
+  left: 16px;
+  margin-right: 16px;
+  transform: translate(-50%);
+  fill: #ffffff;
+}
+.online-area {
+  font-family: "Roboto";
+  width: 264px;
+  height: 40px;
+  padding: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  background: #2e2f42;
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 24px;
 }
