@@ -58,6 +58,8 @@ img {
 
 .container {
   max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   margin: 0 auto;
   /* outline: 4px solid red; */
@@ -634,6 +636,10 @@ body {
 .webst-link-team {
   background: #ffffff;
   justify-content: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 .img-web {
 }
@@ -661,6 +667,8 @@ body {
   margin-bottom: 8px;
 }
 .customer-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .custor {
   font-weight: 700;
@@ -669,11 +677,9 @@ body {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .custo-container {
-  padding-bottom: 120px;
 }
 
 .custo-list {
@@ -789,7 +795,6 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   line-height: 1.5;
-  margin-bottom: 16px;
   width: 264px;
 }
 .cosial-container {
@@ -877,7 +882,7 @@ body {
   font-family: "Roboto";
   width: 264px;
   height: 40px;
-  padding: 16px;
+  padding: 8px 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
@@ -901,7 +906,7 @@ body {
 }
 .modal {
   width: 408px;
-  min-height: 576px;
+  min-height: 584px;
   background: #fcfcfc;
   border-radius: 4px;
   position: absolute;
@@ -957,6 +962,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 .modal-rorm {
   background-color: #fcfcfc;
@@ -986,7 +992,9 @@ body {
 .modal-input:focus + .modal-input-item {
   fill: #4d5ae5;
 }
-
+.form-subs {
+  display: flex;
+}
 .modal-label {
   margin-bottom: 4px;
   font-family: "Roboto";
@@ -1063,6 +1071,15 @@ body {
   margin-bottom: 24px;
   margin-top: 8px;
 }
+.check-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .check-test::before {
   content: "";
   width: 16px;
@@ -1087,7 +1104,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 500px;
 
   margin-bottom: 16px;
 }
